@@ -1,8 +1,6 @@
 <template>
   <div id="app">
-    <h1 id = "header">
-      <strong>Jenn Frank</strong>
-      </h1>
+    <Header />
       <b-card>
     <b-tabs card align="center">
       <b-tab title="About Me">
@@ -13,7 +11,7 @@
       </b-tab>
       <b-tab title="Resume">
         <h1>Embedded Resume PDF</h1>
-        <!--<embed src="./assets/img/FrankResume.pdf">-->
+        <embed src="./assets/img/FrankResume.pdf">
       </b-tab>
     </b-tabs>
   </b-card>
@@ -23,12 +21,14 @@
 <script>
 import Portfolio from './components/Portfolio.vue'
 import AboutMe from './components/AboutMe.vue'
+import Header from './components/Header.vue'
 
 export default {
   name: 'App',
   components: {
     Portfolio,
-    AboutMe
+    AboutMe,
+    Header
   }
 }
 </script>
