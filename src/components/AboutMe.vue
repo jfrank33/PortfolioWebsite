@@ -1,5 +1,6 @@
 <template>
-  <div class="hobby_imgs">
+  <div class="hobby_imgs">  
+    <Header />
     <b-container fluid >
       <b-row>
         <b-col>
@@ -40,6 +41,7 @@
   margin: 0;
   padding: 0;
   border: 0;
+  padding-top: 10px;
 }
 
 
