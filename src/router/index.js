@@ -1,7 +1,11 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import AboutMe from '../components/AboutMe'
-import Projects from '../components/Portfolio'
+import Projects from '../components/Projects'
+import Blog from '../components/Blog'
+import Resume from '../components/Resume'
+
+//const BlogPost = {template:'<div><p>This is the first blog. Strictly Testing. Hi!</p></div>'}
 
 Vue.use(Router)
 
@@ -9,7 +13,7 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'AboutMe',
+      name: 'Home',
       component: AboutMe
     },
     {
@@ -20,7 +24,25 @@ export default new Router({
     {
       path: '/Projects',
       name: 'Projects',
-      components: Projects
+      component: Projects
+    },
+    {
+      path: '/Blog',
+      name: 'Blog',
+      component: Blog
+      //children: [
+      //  {path: '', component: Blog},
+      //  {path: 'firstBlogPost', component: BlogPost}
+      //]
     }
+    
+    ,
+    {
+      path: '/Resume',
+      name: 'Resume',
+      component: Resume
+    }
+
+
   ]
 })

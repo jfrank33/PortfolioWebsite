@@ -1,6 +1,5 @@
 <template>
   <div class="hobby_imgs">  
-    <Header />
     <b-container fluid >
       <b-row>
         <b-col>

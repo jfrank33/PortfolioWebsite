@@ -1,6 +1,8 @@
 <template>
-<nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #BADDC1;">
-  <a class="navbar-brand" href="#">Jennifer Frank</a>
+  <nav class="navbar navbar-expand-sm navbar-light navbar-jw " style="background-color: #BADDC1;">
+   <a class="navbar-brand" href="#">
+      <img src="../assets/img/JennFrank.png" height="100px" width="200px" alt="Jenn logo" /> 
+    </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -8,17 +10,38 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
-        <b-link class="nav-link" href="AboutMe">About Me</b-link>
-      </li>
+<router-link
+        to="AboutMe"
+        class="nav-item nav-link"
+        active-class="active"
+        exact>
+        About Me
+        </router-link>      </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Blog</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link" href="#">Projects</a>
-      </li>
+<router-link
+        to="Projects"
+        class="nav-item nav-link"
+        active-class="active"
+        exact>
+        Projects
+        </router-link>      </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Resume</a>
-      </li>
+<router-link
+        to="Blog"
+        class="nav-item nav-link"
+        active-class="active"
+        exact>
+        Blog
+        </router-link>      </li>
+        <li class="nav-item">
+          <router-link
+        to="Resume"
+        class="nav-item nav-link"
+        active-class="active"
+        exact>
+        Resume
+        </router-link>
+        </li>
       <!--
        <li class="nav-item">
             <a href="https://github.com/jfrank33"> <img class="socialmedia" width="30" height="30" src="../assets/img/git.png"></a>
@@ -28,11 +51,11 @@
        -->
     </ul>
   </div>
-</nav>
+  </nav>
 </template>
 
 <style scoped>
-    .socialmedia{
-        padding: 3px;
-    }
+.socialmedia {
+  padding: 3px;
+}
 </style>
