@@ -1,9 +1,18 @@
 <template>
     <div id=Resume>
-         <h1>This will eventually be an Embedded Resume</h1>
-         <a href = "C:\Users\Jenn\Documents\JennFrankPortfolioWebsite\app\src\assets\files\FrankResume.pdf">Resume</a>
+      <img width="95%" height="90%" class="image" src="../assets/img/ResumeImg.png" v-on:click="toggleImageText">
     </div>
 </template>
+
+<script>
+//import pdf from 'vue-pdf'
+ 
+//export default {
+// components: {
+//        pdf
+//    }
+//}
+</script>
 
 <style scoped>
 * {

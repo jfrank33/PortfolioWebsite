@@ -17,14 +17,14 @@
         exact>
         About Me
         </router-link>      </li>
-      <li class="nav-item">
+     <!-- <li class="nav-item">
 <router-link
         to="Projects"
         class="nav-item nav-link"
         active-class="active"
         exact>
         Projects
-        </router-link>      </li>
+        </router-link>      </li>-->
       <li class="nav-item">
 <router-link
         to="Blog"
@@ -42,20 +42,21 @@
         Resume
         </router-link>
         </li>
-      <!--
-       <li class="nav-item">
-            <a href="https://github.com/jfrank33"> <img class="socialmedia" width="30" height="30" src="../assets/img/git.png"></a>
-            <a href="https://open.spotify.com/user/1216112026?si=v9tz0S3mRZOXrXSkEh6DXQ"><img class="socialmedia" width="30" height="30" src="../assets/img/spotify.png"></a>
-            <a href="https://www.linkedin.com/in/jennifer-frank-069701b3/"><img class="socialmedia" width="30" height="30" src="../assets/img/linkedin.png"></a>
-       </li>
-       -->
     </ul>
+     <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+                      <a class="images" href="https://github.com/jfrank33"> <img class="socialmedia" width="30" height="30" src="../assets/img/git2.png"></a>
+            <a class="images" href="https://open.spotify.com/user/1216112026?si=v9tz0S3mRZOXrXSkEh6DXQ"><img class="socialmedia" width="30" height="30" src="../assets/img/spotify2.png"></a>
+                      <a class="images" href="https://www.linkedin.com/in/jennifer-frank-069701b3/"><img class="socialmedia" width="30" height="30" src="../assets/img/linkedin2.png"></a>
+
+        </li>
+        </ul>
   </div>
   </nav>
 </template>
 
 <style scoped>
-.socialmedia {
-  padding: 3px;
-}
+.images{
+        padding: 3px;
+    }
 </style>

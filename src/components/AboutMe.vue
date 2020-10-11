@@ -3,30 +3,30 @@
     <b-container fluid >
       <b-row>
         <b-col>
-                <img width="95%" height="90%" class="image" thumbnail fluid src="../assets/img/Skiing.png">
-                <p class="img_description">Skiing</p>
+                <img width="95%" height="90%" class="image" src="../assets/img/Skiing.png" v-on:click="toggleImageText">
+               <span v-show="displayImageText">Skiing</span>
         </b-col>
         <b-col>
-                <img width="95%" height="90%" thumbnail fluid src="../assets/img/Biking.png">
+                <img width="95%" height="90%" src="../assets/img/Biking.png">
                 <p>Biking</p>
         </b-col>
             <b-col>
-                <img width="95%" height="90%" thumbnail fluid src="../assets/img/Hiking.png">
+                <img width="95%" height="90%" src="../assets/img/Hiking.png">
                 <p>Hiking</p>
         </b-col>
         
       </b-row>
       <b-row>
           <b-col>
-                <img width="95%" height="90%" thumbnail fluid src="../assets/img/Kayaking.png">
+                <img width="95%" height="90%" src="../assets/img/Kayaking.png">
                 <p>Kayaking</p>
         </b-col>
         <b-col>
-                <img width="95%" height="90%" thumbnail fluid src="../assets/img/Camping.png">
+                <img width="95%" height="90%" src="../assets/img/Camping.png">
                 <p>Camping</p>
         </b-col>
               <b-col>
-                <img width="95%" height="90%" thumbnail fluid src="../assets/img/Millie.png">
+                <img width="95%" height="90%" src="../assets/img/Millie.png">
                 <p>My adventure buddy, Millie</p>
         </b-col>
         </b-row>
@@ -34,14 +34,28 @@
   </div>
 </template>
 
+<script>
+export default {
+  data(){
+    return {
+      displayImageText: true
+    }
+  },
+  methods: {
+    toggleImageText(){
+      this.displayImageText = !this.displayImageText
+    }
+  }
+}
+</script>
+
 <style scoped>
-    /* quick reset */
 * {
   margin: 0;
   padding: 0;
   border: 0;
   padding-top: 10px;
+  position: relative;
 }
-
 
 </style>
