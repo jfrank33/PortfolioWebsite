@@ -1,6 +1,6 @@
 <template>
     <div id=Resume>
-      <img width="95%" height="90%" class="image" src="../assets/img/ResumeImg.png" v-on:click="toggleImageText">
+      <img width="95%" height="90%" class="image" src="../assets/img/FrankGreenResume.png" v-on:click="toggleImageText">
     </div>
 </template>
 
