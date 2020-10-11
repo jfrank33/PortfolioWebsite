@@ -1,5 +1,9 @@
 <template>
-  <div class="hobby_imgs">  
+  <div class="hobby_imgs"> 
+    <p id="IntroText">Hello and welcome! My name is Jenn Frank and I am a software developer, gemini, adventurer, and plant-lover, amongst many other things.
+    As you may notice, this webpage is currently a work in progress. I am using it as a creativity outlet as well as a fun way to freshen
+    up my web development skills and learn the Vue.JS framework. I plan to use the Blog tab to document my developing progress, share recipes,
+    document adventures, and anything else I may think of. Other tabs and features may pop up as I explore Vue.js, so be on the lookout!</p>
     <b-container fluid >
       <b-row>
         <b-col>
@@ -56,6 +60,11 @@ export default {
   border: 0;
   padding-top: 10px;
   position: relative;
+}
+
+#idText {
+  text-align: center;
+  padding-top: 30px;
 }
 
 </style>
