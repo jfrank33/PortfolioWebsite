@@ -1,12 +1,12 @@
 <template>
-    <div id=Resume>
-      <img width="95%" height="90%" class="image" src="../assets/img/FrankGreenResume.png" v-on:click="toggleImageText">
-    </div>
+	<div id="Resume">
+		<img width="95%" height="90%" class="image" src="../assets/img/Resume.png" />
+	</div>
 </template>
 
 <script>
 //import pdf from 'vue-pdf'
- 
+
 //export default {
 // components: {
 //        pdf
@@ -16,10 +16,9 @@
 
 <style scoped>
 * {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  padding-top: 15px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	padding-top: 15px;
 }
 </style>
-
