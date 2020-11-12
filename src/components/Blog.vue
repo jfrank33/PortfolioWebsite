@@ -1,6 +1,15 @@
 <template>
 	<div class="blog">
-		<h3>Interior Design</h3>
+    <h3>
+    <router-link
+						to="moodboard"
+						class="nav-item nav-link"
+						active-class="active"
+						exact
+					>
+						Interior Design
+					</router-link>
+          </h3>
 		<p>The inspiration for a new indie boho living room</p>
     <h3>Adventures with Mille</h3>
     <p>Some photos and stories of the most regal, sassy, and spoiled cheagle</p> 

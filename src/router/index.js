@@ -4,6 +4,7 @@ import AboutMe from '../components/AboutMe'
 import Projects from '../components/Projects'
 import Blog from '../components/Blog'
 import Resume from '../components/Resume'
+import MoodBoard from '../components/MoodBoard'
 
 //const BlogPost = {template:'<div><p>This is the first blog. Strictly Testing. Hi!</p></div>'}
 
@@ -34,9 +35,12 @@ export default new Router({
       //  {path: '', component: Blog},
       //  {path: 'firstBlogPost', component: BlogPost}
       //]
-    }
-    
-    ,
+    },
+    {
+      path: '/MoodBoard',
+      name: 'MoodBoard',
+      component: MoodBoard
+    },
     {
       path: '/Resume',
       name: 'Resume',
