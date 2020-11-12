@@ -1,7 +1,11 @@
 <template>
 	<div class="blog">
-		<h3>Example first blog post</h3>
-		<p>Preview of blog post about developing this application.</p>
+		<h3>Interior Design</h3>
+		<p>The inspiration for a new indie boho living room</p>
+    <h3>Adventures with Mille</h3>
+    <p>Some photos and stories of the most regal, sassy, and spoiled cheagle</p> 
+    <h3>Music</h3>
+    <p>Ramblings on my favorite artists, songs, and lyrics</p>
 	</div>
 </template>
 
@@ -13,6 +17,9 @@
 	margin: 0;
 	padding: 0;
 	border: 0;
-	padding-top: 15px;
+}
+
+h3 {
+  padding-top: 20px;
 }
 </style>

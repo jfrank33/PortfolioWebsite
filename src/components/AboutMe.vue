@@ -18,12 +18,12 @@
             Hello and Welcome!
           </h1>
           <h5 id="IntroText">
-            My name is Jenn Frank and I am a software developer, adventurer
-            and creative thinker. As you may notice, this website is currently a work in progress.
-            I am using it as a creative outlet as well as a way to freshen up my web development
-            skills and learn the Vue.JS framework. I plan to use the Blog tab to document
-            my development progress, share recipes, and talk about my puppy, amongst other things. 
-            Other tabs and features may pop up as I explore Vue.js, so be on the lookout!
+            My name is Jenn Frank and I am a software developer, ENFP, adventurer
+            and creative thinker. I am using this website to freshen up my web 
+            development skills and learn the Vue.JS framework, but also as a creative
+            outlet. I plan to use the Blog tab to share recipes, provide music
+            recommendations, and talk about my puppy, amongst other things. Other
+            tabs and features may pop up as I explore Vue.js, so be on the lookout!
           </h5>
         </b-col>
       </b-row>
