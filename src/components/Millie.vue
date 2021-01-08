@@ -16,16 +16,15 @@
             <li>Her best friend is Augie (a 2 year old Australian Shephard corgie) and she will literally play with him until her body gives out.
             </li>
         </ul>
-        <h4>Here are some of my favorite memories with Mill, Enjoy!</h4>
+        <h4>Here are some of my favorite memories with Mill - Enjoy!</h4>
         <br/>
         <div>
             <figure class="flex">
                 <img width="50%" height="90%" class="imgleft" src="../assets/img/MillieRainCoat.jpg" />
-                <p>I used to hate people who put their pets in clothes. Like why? 
-                    I'll tell you why, it's really freaking cute.
-                    Also Millie really needed some extra warmth in the Iowa snow,
-                    so this coat was a life saver.
-                    As an added perk, she is absolutely unphased by it.
+                <p>I never understood why people put their dogs in clothes until I got one.
+                    Millie really needed some extra warmth in the Iowa snow,
+                    so this christmas present was not only adorable but functional. I was nervous
+                    Millie would refuse and try to wiggle out of it but she was absolutely unphased.
                     "If I get to play outside in the snow longer, you can strap explosives to me!"
                 </p>
             </figure>

@@ -24,9 +24,9 @@
 					</h3>
     <p>Some photos and stories of the most regal, sassy, and spoiled cheagle</p> 
     <h3>Music</h3>
-    <p>Ramblings on my favorite artists, songs, and lyrics</p>
+    <p>TODO: Spotify playlists, quotes of my favorite lyrics, and thoughts on new artists I find</p>
 	<h3>Recipes</h3>
-	<p>Some original creations and a collection of other's masterpieces</p>
+	<p>TODO: Original creations and a collection of other's masterpieces</p>
 	</div>
 </section>
 </template>
