@@ -5,6 +5,7 @@ import Projects from '../components/Projects'
 import Blog from '../components/Blog'
 import Resume from '../components/Resume'
 import MoodBoard from '../components/MoodBoard'
+import Millie from '../components/Millie'
 
 //const BlogPost = {template:'<div><p>This is the first blog. Strictly Testing. Hi!</p></div>'}
 
@@ -45,6 +46,11 @@ export default new Router({
       path: '/Resume',
       name: 'Resume',
       component: Resume
+    },
+    {
+      path: '/Millie',
+      name: 'Millie',
+      component: Millie
     }
 
 

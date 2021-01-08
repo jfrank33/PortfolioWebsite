@@ -1,6 +1,7 @@
 <template>
 	<div id="Resume">
 		<img width="95%" height="90%" class="image" src="../assets/img/Resume.png" />
+		<br/>
 	</div>
 </template>
 
